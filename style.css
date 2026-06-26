@@ -51,11 +51,11 @@ button {
     rgba(238, 236, 236, 0.425);
     font-size: 22px;
     cursor: pointer;
+    transition: transform 0.2s ease;
 }
 button:hover{
     background-color: rgba(18, 17, 17, 0.801);
     transform: scale(1.05);
-    transition: 0.2s;
 }
 .color-white {
     background: rgba(255, 255, 255, 0.543);
