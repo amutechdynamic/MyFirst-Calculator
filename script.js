@@ -1,6 +1,14 @@
 let input = document.getElementById('inputBox');
 let buttons = document.querySelectorAll('button');
+let btn = document.getElementById("btn");
 
+btn.addEventListener("click", () => {
+  btn.classList.add("clicked");
+
+  setTimeout(() => {
+    btn.classList.remove("clicked");
+  }, 200); // 200ms = 0.2 seconds
+});
 let string = "";
 let arr = Array.from(buttons);
 arr.forEach(button => {
